@@ -1,0 +1,11 @@
+:root { --primary: #2563eb; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; color: #111; line-height: 1.5; }
+.site-header { padding: 2rem 1rem; text-align: center; background: #f8fafc; }
+.logo { max-height: 64px; margin-bottom: 0.5rem; }
+.tagline { color: #475569; margin-top: 0.25rem; }
+.hero img { width: 100%; max-height: 420px; object-fit: cover; display: block; }
+main { max-width: 720px; margin: 0 auto; padding: 2rem 1rem; }
+h1, h2 { color: var(--primary); }
+.services ul { padding-left: 1.25rem; }
+footer { text-align: center; padding: 1.5rem; color: #64748b; font-size: 0.875rem; }

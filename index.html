@@ -3,24 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Golfing Retry 2</title>
+  <title>Home</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <img class="logo" src="assets/logo.png" alt="Golfing Retry 2 logo" />
-    <h1>Golfing Retry 2</h1>
-    
-    <nav class="site-nav"><a href="#about">About</a><a href="#about-us">About Us</a></nav>
+    <nav class="site-nav"><a href="index.html" aria-current="page">Home</a><a href="shop.html">Shop</a><a href="coaching.html">Coaching</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></nav>
   </header>
-  <section class="hero"><img src="assets/hero.jpg" alt="Golfing Retry 2 hero" /></section>
-  <main>
-    <section class="content-section" id="about"><p>Golfing Retry 2 — local business website</p></section>
-    <section class="content-section" id="about-us"><h2>About Us</h2><p>Golfing Retry 2 is a friendly neighborhood golf shop and coaching outfit. We've been helping local golfers of every skill level improve their game since day one — from club fittings to weekend lessons on the green.</p></section>
-  </main>
-  <footer>
-    <p>&copy; 2026 Golfing Retry 2</p>
-  </footer>
+  <section class="hero hero-split" id="hero">
+      <div class="hero-copy">
+        <h1>Golfing Retry 2</h1>
+        
+        
+      </div>
+      <div class="hero-media"><img src="assets/hero.jpg" alt="Golfing Retry 2 hero" /></div>
+    </section>
+    <section class="content-section custom-prose" id="about-us">
+      <h2>About Us</h2>
+      <p>Golfing Retry 2 is a friendly neighborhood golf shop and coaching outfit. We've been helping local golfers of every skill level improve their game since day one — from club fittings to weekend lessons on the green.</p>
+    </section>
+    <section class="content-section gallery gallery-mosaic" id="gallery">
+      <h2>Explore Our Space</h2>
+      <div class="gallery-grid"><img src="assets/hero.jpg" alt="Golfing Retry 2 photo" /><img src="assets/logo.png" alt="Golfing Retry 2 logo" /></div>
+    </section>
+    <section class="cta-banner cta-solid" id="cta">
+      <h2>Join Our Golf Community</h2>
+      <p>Connect with fellow golfers and improve your game today.</p>
+      <a class="btn btn-primary" href="#contact">Join Our Golf Community</a>
+    </section>
+    <section class="content-section split-content split-left" id="about-us-2">
+      <div class="split-copy"><h2>About Us</h2><p>Golfing Retry 2 is a friendly neighborhood golf shop and coaching outfit. We've been helping local golfers of every skill level improve their game since day one — from club fittings to weekend lessons on the green.</p></div>
+      
+    </section>
+    <footer id="footer"><p>&copy; 2026 Golfing Retry 2</p></footer>
+  <script src="mock-interactions.js"></script>
   <script src="main.js"></script>
 </body>
 </html>

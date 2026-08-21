@@ -3,23 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Golfing Retry 2 — local business website" />
+  <meta name="theme-color" content="#2563eb" />
   <title>Shop</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
-    <img class="logo" src="assets/logo.png" alt="Golfing Retry 2 logo" />
-    <nav class="site-nav"><a href="index.html">Home</a><a href="shop.html" aria-current="page">Shop</a><a href="coaching.html">Coaching</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></nav>
+    <a class="site-brand" href="index.html" aria-label="Golfing Retry 2 home"><img class="logo" src="assets/logo.png" alt="Golfing Retry 2 logo" /><span>Golfing Retry 2</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Toggle menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="shop.html" aria-current="page">Shop</a><a href="coaching.html">Coaching</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></nav>
   </header>
-  <section class="hero hero-bleed" id="hero">
-      <img src="assets/hero.jpg" alt="Golfing Retry 2 hero" />
+  <main id="main-content">
+    <section class="hero hero-bleed" id="hero">
+      <img src="assets/hero.jpg" alt="Golfing Retry 2 hero" fetchpriority="high" data-parallax="0.08" />
       <div class="hero-overlay">
         <h1>Golfing Retry 2</h1>
         
         
       </div>
     </section>
-    <footer id="footer"><p>&copy; 2026 Golfing Retry 2</p></footer>
+  </main>
+  <footer id="footer"><p>&copy; 2026 Golfing Retry 2</p></footer>
   <script src="mock-interactions.js"></script>
   <script src="main.js"></script>
 </body>
